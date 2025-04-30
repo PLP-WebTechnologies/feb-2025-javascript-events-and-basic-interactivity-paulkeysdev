@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to My Interactive Web Project</h1>
+    <button id="actionButton">Click Me!</button>
+    <div id="imageGallery">
+        <img src="https://images.pexels.com/photos/168938/pexels-photo-168938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        alt="Image of an Audi" >
+        
+    </div>
+    <form id="myForm">
+        <legend>Registration Form</legend>
+        <fieldset>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <span id="emailFeedback"></span>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" minlength="8" required>
+        <span id="passwordFeedback"></span>
+        <br>
+        <label for="name" id="name">Enter Your Name:</label>
+        <input type="text" id="name" required>
+        <button type="submit">Submit</button></fieldset>
+        
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
